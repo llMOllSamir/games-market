@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>GAME REVIEWS</title>
+  </head>
+  <body>
+    <section id="home" class="">
+      <header>
+        <img src="/images/img1.png" class="w-100" alt="Game Photo" />
+      </header>
+      <nav
+        class="navbar navbar-dark navbar-expand-lg position-sticky top-0 z-3 mb-3"
+      >
+        <div class="container-sm bg-primary bg-opacity-50 rounded-4 px-5 py-2">
+          <h5 class="navbar-brand m-0 p-2">
+            <img src="./images/img2.png" alt="" /> GAME REVIEWS
+          </h5>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-uppercase"
+                  aria-current="page"
+                  data-category="mmorpg"
+                  href="#"
+                  >mmorpg</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link text-uppercase"
+                  aria-current="page"
+                  data-category="shooter"
+                  href="#"
+                  >shooter</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link text-uppercase"
+                  aria-current="page"
+                  data-category="sailing"
+                  href="#"
+                  >sailing</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link text-uppercase"
+                  aria-current="page"
+                  data-category="permadeath"
+                  href="#"
+                  >permadeath</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link text-uppercase"
+                  aria-current="page"
+                  data-category="superhero"
+                  href="#"
+                  >superhero</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link text-uppercase"
+                  aria-current="page"
+                  data-category="pixel"
+                  href="#"
+                  >pixel</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <main>
+        <div class="container">
+          <div id="items" class="row gy-4 flex"></div>
+        </div>
+      </main>
+    </section>
+    <section id="title" class="d-none">
+      <div class="container">
+        <header class="d-flex justify-content-between align-items-center">
+          <h3 class="my-4">Details Game</h3>
+          <button class="btn-close btn-close-white" id="btnClose"></button>
+        </header>
+        <div id="showDetails" class="row mt-4"></div>
+      </div>
+    </section>
+    <div id="loading" class="">
+      <div class="sk-folding-cube">
+        <div class="sk-cube1 sk-cube"></div>
+        <div class="sk-cube2 sk-cube"></div>
+        <div class="sk-cube4 sk-cube"></div>
+        <div class="sk-cube3 sk-cube"></div>
+      </div>
+    </div>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/jquery-3.6.3.min.js"></script>
+    <script src="./js/index.js" type="module"></script>
+  </body>
+</html>
